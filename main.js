@@ -29,7 +29,8 @@ document
         window.alert(`Error in saving data`);
       }
     } catch (error) {
-      alert('Something went wrong.... Try again');
+      alert('Unable to save the data.... Try again');
+      console.log('Check with the url. Something is wrong..');
     }
   });
 
