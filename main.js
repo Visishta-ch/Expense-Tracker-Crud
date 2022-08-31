@@ -15,7 +15,7 @@ document
       };
 
       const response = await axios.post(
-        `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83/etLog`,
+        `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83e9/etLog`,
         user
       );
 
@@ -29,8 +29,8 @@ document
         window.alert(`Error in saving data`);
       }
     } catch (error) {
-      alert('Unable to save the data.... Try again');
       console.log('Check with the url. Something is wrong..');
+      alert('Unable to save the data.... Try again');
     }
   });
 
