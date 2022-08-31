@@ -15,7 +15,7 @@ document
       };
 
       const response = await axios.post(
-        `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83e9/etLog`,
+        `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83/etLog`,
         user
       );
 
@@ -68,11 +68,15 @@ function editUserDetails(amount, description, user_id) {
 }
 
 async function deleteExistingUser(user_id) {
-  const reqId = await axios.delete(
-    `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83e9/etLog/${user_id}`
-  );
+  try {
+    const reqId = await axios.delete(
+      `https://crudcrud.com/api/66c6b068f02c41c1811c355d369f83e9/etLog/${user_id}`
+    );
 
-  deleteUser(user_id);
+    deleteUser(user_id);
+  } catch (error) {
+    console.log('Unable to delete');
+  }
 }
 
 function deleteUser(id) {
