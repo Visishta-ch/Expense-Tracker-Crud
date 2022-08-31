@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+ .header__text-box {
+   
+    padding-top: 3rem;
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+ 
+    /*background-color: aqua;*/
+ }
+.headertext{
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.2rem;
+    
+    font-size: 42px;
+    font-family: sans-serif;
+    color: rgb(4, 26, 41);
+}
+
+ body {
+    background: linear-gradient(  #ffc2ed, #e6928f);
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+  }
+  #title {
+    color: navy;
+
+    letter-spacing: 0.15rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+   
+  }
+  
+  ul li {
+    padding: 5px;
+    margin: 5px 0;
+  }
+  li{
+    float: left;
+    width: 100%;
+
+  }
+  
+  
+  header h1 {
+    color: rgb(6, 6, 193);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .container {
+    margin: auto;
+    width: 500px;
+  
+    
+  }
+  
+  #my-form {
+    padding: 2rem;
+    
+  }
+  
+  #my-form label {
+    display: block;
+    text-decoration-color:rgb(10, 9, 9);
+  }
+  
+  #my-form input[type='text'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+
+  }
+  #my-form input[type='number'] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    
+  }
+  #category{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    background: rgb(53, 186, 100);
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5mm;
+    margin: 5px 0;
+  }
+  
+  .button{
+    font-size: 16px;
+    padding: 1.7px 10px;
+    border: 1px solid gray;
+
+  }
+  
+
+  
+  
+ 
+
+ 
+  
